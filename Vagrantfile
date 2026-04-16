@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-Vagrant.configure("2") do |config|=
-  config.vm.box = "ubuntu/jammy64" # Ubuntu 22.04 LTS
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/ubuntu2204"
   config.vm.box_check_update = false
 
   (1..2).each do |i|
